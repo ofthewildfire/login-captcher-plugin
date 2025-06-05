@@ -20,12 +20,6 @@ class Plugin extends PluginBase
         ];
     }
 
-    public function register()
-    {
-        // Register the controller
-        Backend::registerController('OfTheWildfire\LoginCaptcher\Controllers\Logs', 'logs');
-    }
-
     public function boot()
     {
         // Register the login attempt model
@@ -71,7 +65,7 @@ class Plugin extends PluginBase
                     Mail::send('ofthewildfire.logincaptcher::mail.failed_attempt', [
                         'attempt' => $attempt
                     ], function($message) {
-                        $message->to('fuascailtkirsten@gmail.com', 'Security Admin')
+                        $message->to('fascailtkirsten@gmail.com', 'Security Admin')
                                ->subject('Failed Backend Login Attempt Detected');
                     });
                 }
@@ -94,7 +88,7 @@ class Plugin extends PluginBase
             Mail::send('ofthewildfire.logincaptcher::mail.password_reset', [
                 'attempt' => $attempt
             ], function($message) {
-                $message->to('fuascailtkirsten@gmail.com', 'Security Admin')
+                $message->to('fascailtkirsten@gmail.com', 'Security Admin')
                        ->subject('Backend Password Reset Request');
             });
         });

@@ -2,7 +2,7 @@ name: 'Login Captcher'
 description: 'Captures and logs backend admin login attempts and password reset requests with IP addresses'
 author: 'Of The Wildfire'
 website: 'https://github.com/ofthewildfire/login-captcher-plugin'
-version: '1.0.4'
+version: '1.0.5'
 
 # Plugin permissions
 permissions:

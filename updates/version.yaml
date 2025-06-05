@@ -12,4 +12,7 @@
     - 'Added repository information'
 
 1.0.4:
-    - 'Fixed controller registration and added config_form.yaml' 
+    - 'Fixed controller registration and added config_form.yaml'
+
+1.0.5:
+    - 'Removed incorrect controller registration method' 
