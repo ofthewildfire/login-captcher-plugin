@@ -1,4 +1,4 @@
-<?php namespace OfTheWildfire\LoginCaptcher;
+<?php namespace OfTheWildfire\Logincaptcher;
 
 use Backend;
 use System\Classes\PluginBase;
@@ -6,7 +6,7 @@ use Backend\Models\User as BackendUser;
 use BackendAuth;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Mail;
-use OfTheWildfire\LoginCaptcher\Models\LoginAttempt;
+use OfTheWildfire\Logincaptcher\Models\LoginAttempt;
 
 class Plugin extends PluginBase
 {

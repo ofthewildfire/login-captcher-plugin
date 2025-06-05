@@ -1,5 +1,5 @@
 {
-    "name": "ofthewildfire/login-captcher-plugin",
+    "name": "ofthewildfire/logincaptcher",
     "type": "october-plugin",
     "description": "Captures and logs backend admin login attempts and password reset requests with IP addresses",
     "homepage": "https://github.com/ofthewildfire/login-captcher-plugin",
