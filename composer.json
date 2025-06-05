@@ -15,5 +15,11 @@
         "php": ">=7.2",
         "composer/installers": "~1.0"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ofthewildfire/login-captcher-plugin"
+        }
+    ]
 } 

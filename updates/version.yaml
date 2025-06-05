@@ -6,4 +6,10 @@
     - 'Added composer.json for plugin package'
 
 1.0.2:
-    - 'Added fields.yaml for proper backend display' 
+    - 'Added fields.yaml for proper backend display'
+
+1.0.3:
+    - 'Added repository information'
+
+1.0.4:
+    - 'Fixed controller registration and added config_form.yaml' 

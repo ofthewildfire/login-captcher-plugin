@@ -1,0 +1,3 @@
+modelClass: OfTheWildfire\LoginCaptcher\Models\LoginAttempt
+defaultRedirect: ofthewildfire/logincaptcher/logs
+form: $/ofthewildfire/logincaptcher/models/loginattempt/fields.yaml 

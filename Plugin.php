@@ -20,6 +20,12 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function register()
+    {
+        // Register the controller
+        Backend::registerController('OfTheWildfire\LoginCaptcher\Controllers\Logs', 'logs');
+    }
+
     public function boot()
     {
         // Register the login attempt model
