@@ -1,0 +1,13 @@
+modelClass: OfTheWildfire\LoginCaptcher\Models\LoginAttempt
+title: 'Login Attempts'
+list: $/ofthewildfire/logincaptcher/models/loginattempt/columns.yaml
+modelConfig: $/ofthewildfire/logincaptcher/models/loginattempt/fields.yaml
+defaultSort: created_at
+defaultSortDirection: desc
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt' 

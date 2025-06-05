@@ -1,0 +1,19 @@
+name: 'Login Captcher'
+description: 'Captures and logs backend admin login attempts and password reset requests with IP addresses'
+author: 'Of The Wildfire'
+website: 'https://github.com/ofthewildfire/login-captcher-plugin'
+version: '1.0.0'
+
+# Plugin permissions
+permissions:
+    ofthewildfire.logincaptcher.access_logs: 'Access login attempt logs'
+
+# Plugin navigation
+navigation:
+    logs:
+        label: 'Login Attempts'
+        url: 'ofthewildfire/logincaptcher/logs'
+        icon: 'icon-list'
+        permissions:
+            - ofthewildfire.logincaptcher.access_logs
+        order: 500 

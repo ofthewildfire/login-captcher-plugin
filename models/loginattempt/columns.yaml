@@ -1,0 +1,31 @@
+columns:
+    id:
+        label: 'ID'
+        searchable: true
+        type: number
+        sortable: true
+    created_at:
+        label: 'Date'
+        type: datetime
+        format: 'Y-m-d H:i:s'
+        sortable: true
+    email:
+        label: 'Email'
+        type: text
+        searchable: true
+    ip_address:
+        label: 'IP Address'
+        type: text
+        searchable: true
+    attempt_type:
+        label: 'Type'
+        type: text
+        valueFrom: attempt_type_text
+    success:
+        label: 'Success'
+        type: text
+        valueFrom: success_text
+    user_agent:
+        label: 'User Agent'
+        type: text
+        searchable: true 

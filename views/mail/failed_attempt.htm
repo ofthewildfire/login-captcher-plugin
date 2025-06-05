@@ -1,0 +1,18 @@
+subject = "Failed Login Attempt Detected"
+==
+
+<p>Hello,</p>
+
+<p>A failed login attempt was detected on your OctoberCMS website.</p>
+
+<h3>Attempt Details:</h3>
+<ul>
+    <li><strong>Email:</strong> {{ attempt.email }}</li>
+    <li><strong>IP Address:</strong> {{ attempt.ip_address }}</li>
+    <li><strong>User Agent:</strong> {{ attempt.user_agent }}</li>
+    <li><strong>Date:</strong> {{ attempt.created_at }}</li>
+</ul>
+
+<p>You can view more details in the backend under Login Attempts.</p>
+
+<p>Best regards,<br>Login Captcher Plugin</p> 
