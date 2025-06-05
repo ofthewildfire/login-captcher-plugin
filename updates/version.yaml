@@ -1,3 +1,6 @@
 1.0.0:
     - 'Initial plugin release'
-    - create_login_attempts_table.php 
+    - create_login_attempts_table.php
+
+1.0.1:
+    - 'Added composer.json for plugin package' 
