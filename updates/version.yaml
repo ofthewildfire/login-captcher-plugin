@@ -3,4 +3,7 @@
     - create_login_attempts_table.php
 
 1.0.1:
-    - 'Added composer.json for plugin package' 
+    - 'Added composer.json for plugin package'
+
+1.0.2:
+    - 'Added fields.yaml for proper backend display' 

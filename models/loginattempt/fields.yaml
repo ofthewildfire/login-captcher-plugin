@@ -1,0 +1,31 @@
+fields:
+    id:
+        label: 'ID'
+        type: number
+        span: auto
+    created_at:
+        label: 'Date'
+        type: datetime
+        format: 'Y-m-d H:i:s'
+        span: auto
+    email:
+        label: 'Email'
+        type: text
+        span: auto
+    ip_address:
+        label: 'IP Address'
+        type: text
+        span: auto
+    attempt_type:
+        label: 'Type'
+        type: dropdown
+        options: getAttemptTypeOptions
+        span: auto
+    success:
+        label: 'Success'
+        type: switch
+        span: auto
+    user_agent:
+        label: 'User Agent'
+        type: text
+        span: auto 
