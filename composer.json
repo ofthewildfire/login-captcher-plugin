@@ -1,0 +1,19 @@
+{
+    "name": "ofthewildfire/login-captcher-plugin",
+    "type": "october-plugin",
+    "description": "Captures and logs backend admin login attempts and password reset requests with IP addresses",
+    "homepage": "https://github.com/ofthewildfire/login-captcher-plugin",
+    "keywords": ["october", "octobercms", "login", "security", "logging"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Of The Wildfire",
+            "email": "fascailtkirsten@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "composer/installers": "~1.0"
+    },
+    "minimum-stability": "dev"
+} 
